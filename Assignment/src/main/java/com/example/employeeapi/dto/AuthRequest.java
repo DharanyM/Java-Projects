@@ -1,5 +1,3 @@
-
-
 package com.example.employeeapi.dto;
 
 public class AuthRequest {

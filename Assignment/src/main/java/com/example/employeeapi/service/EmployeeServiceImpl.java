@@ -29,7 +29,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	public List<Employee> getByDepartment(String dept) {
-		return repo.findByDepartment(dept);
+		return repo.findAllByDepartment(dept);
 	}
 
 	@Override
